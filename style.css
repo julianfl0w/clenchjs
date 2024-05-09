@@ -1,0 +1,27 @@
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    font-family: Arial, sans-serif;
+}
+a {
+    color: #bb86fc; /* A light purple color for links */
+}
+button {
+    background-color: #333333; /* Darker grey for buttons */
+    color: #ffffff; /* White text on buttons */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #555555; /* Lighter grey when hovering over the button */
+}
+#log {
+    white-space: pre-wrap;
+    background-color: #252525; /* Slightly lighter background for log area */
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}

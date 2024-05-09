@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Bluetooth / EMG Monitoring</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <p>This section should include introductory content that was previously in '_includes/intro.html'.</p>
+    </header>
+
+    <button id="getBatteryButton">Get Bluetooth Device's Battery Level</button>
+    <button id="bluetoothButton">Connect and Start Notifications</button>
+    <button id="downloadCSV">Download CSV</button>
+
+    <div id="emgValueDisplay">EMG Value: 0</div>
+    <div id="timeDisplay">Time: 0</div>
+    <div id="runTime">Runtime: 0</div>
+
+    <canvas id="emgChart"></canvas>
+    <div id="log" style="white-space: pre-wrap;"></div>
+
+    <script src="capture_data.js"></script>
+</body>
+</html>
